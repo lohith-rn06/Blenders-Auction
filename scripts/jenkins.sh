@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 sudo apt update
 sudo apt install fontconfig openjdk-21-jre -y
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
